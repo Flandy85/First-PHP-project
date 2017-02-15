@@ -1,0 +1,155 @@
+/*************************************
+**************************************
+      RESPONIVE CSS FOR HEADER
+    (dashboard.php, fileupload.php)
+**************************************
+**************************************
+
+/*************************************
+**************************************
+		GALAXY S5
+**************************************
+*************************************/
+
+@media all and (max-width: 360px) {
+	.start-banner {
+		display: block;
+		width: auto;
+	}
+
+	.banner-items {
+		font-size: 12px;
+	}
+	.item-1 {
+		display: none;
+	}
+
+	.item-2 {
+		display: none;
+	}
+	.flex-head {
+		font-size: 12px;
+	}
+	.footer-flex {
+		display: block;
+		font-size: 15px;
+
+	}
+
+/***************************************
+****************************************
+		FORM APPLICATIONS
+****************************************
+***************************************/
+
+	.flex-item1 {
+		float: left;
+		font-size: 15px;
+		display: block;
+		width: auto;
+		padding: 0;
+	}
+	.flex-item1 > p {
+		display: block;
+		width: auto;
+		font-size: 15px;
+	}
+	.flex-item2 {
+		float: left;
+		font-size: 15px;
+		display: block;
+		width: auto;
+	}
+	.flex-item2 > p {
+		float: left;
+		font-size: 15px;
+		display: block;
+		width: auto;
+	}
+
+}
+/****************************************
+*****************************************
+		IPHONE 5
+*****************************************
+****************************************/
+@media all and (max-width: 320px) {
+
+	.start-banner {
+		display: block;
+		width: auto;
+	}
+
+	.banner-items {
+		font-size: 12px;
+	}
+	.item-1 {
+		display: none;
+	}
+
+	.item-2 {
+		display: none;
+	}
+}
+/****************************************
+*****************************************
+		IPHONE 6
+*****************************************
+****************************************/
+@media all and (max-width: 375px) {
+
+	.start-banner {
+		display: block;
+		width: auto;
+	}
+
+	.banner-items {
+		font-size: 12px;
+	}
+	.banner.items > img {
+		display: flex;
+		justify-content: center;
+	}
+	.item-1 {
+		display: none;
+	}
+
+	.item-2 {
+		display: none;
+	}
+
+}
+/****************************************
+*****************************************
+		IPAD
+*****************************************
+****************************************/
+@media all and (max-width: 768px) {
+
+	.start-banner {
+		display: block;
+		width: auto;
+	}
+
+	.banner-items {
+		font-size: 15px;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.banner-items > img {
+		 justify-content: 
+	}
+	.item-1 {
+		display: inline-block;
+	}
+
+/**************************************
+***************************************
+			BODY
+***************************************
+**************************************/
+	body {
+		background-image: url('../images/background-grey.jpg');
+	}
+
+}

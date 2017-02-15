@@ -1,0 +1,160 @@
+/***********************************
+************************************
+			HEADER
+************************************
+***********************************/
+
+.start-banner {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-style: solid grey;
+	border-width: 10px;
+	border-radius: 15px;
+	min-height: 8.5em;
+	margin: -10px 0 0 0;
+}
+
+.banner-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: white;
+	font-size: 2em;
+	font-family: 'Source Code Pro', monospace, sans-serif;
+	text-shadow: 1px 1px 2px yellow, 0 0 1em yellow, 0 0 0.2em white;
+	
+		
+}
+.banner-items > img {
+	padding-left: 15px;
+	height: 140px;
+	width: 140px;
+}
+.item-1 {
+	font-size: 1.5em;
+}
+
+.item-2 {
+	padding-right: 15px;
+}
+
+/*************************************
+**************************************
+				BODY
+**************************************
+*************************************/
+
+body{
+	background-image: url('../images/weyland_yutani_cor.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -10px;
+}
+
+main {
+ height: 450px;
+}
+
+/**************************************
+***************************************
+		FORM APPLICATIONS
+***************************************
+**************************************/
+.flex-head {
+	display: flex;
+	justify-content: center;
+	font-family: 'Source Code Pro', monospace, sans-serif;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em white;
+	font-size: 1em;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.flex-item1{
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+
+.flex-item1 > p {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em white;
+	font-size: 1.2em;
+
+}
+
+.flex-item2 {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	padding-right: 50px;
+}
+
+.flex-item2 > p {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em white;
+	font-size: 1.2em;
+}
+
+.regform {
+	/*width: 200px;*/
+	font-size: 1.5em;
+	color: #FFFF00;
+	text-align: center;
+	background-color: black;
+	border-radius: 15px;
+	border-width: 5px;
+	border-color: #424242;
+}
+
+.create-title {
+	text-align: center;
+}
+.login-title{
+	text-align: center;
+}
+/************************************
+*************************************
+	FORM APPLICATIONS BUTTONS
+*************************************
+************************************/
+.button-account {
+	font-size: 0.8em;
+	width: 173px;
+	margin: 10px 0 0 0;
+}
+
+.button-login {
+	font-size: 0.8em;
+	width: 173px;
+	margin: 10px 0 0 0;
+}
+.button-account:hover, .button-login:hover {
+	color:white;
+	background-color: black;
+}
+
+
+/***********************************************
+************************************************
+				FOOTER
+************************************************
+***********************************************/
+.footer-end {
+	min-height: 5em;
+}
+.footer-flex {
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 1px 1px 2px yellow, 0 0 1em yellow, 0 0 0.2em white;
+}
